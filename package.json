@@ -1,0 +1,18 @@
+{
+  "name": "snake-game-tests",
+  "version": "1.0.0",
+  "description": "Snake Game E2E Tests",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": ["e2e", "playwright", "snake-game"],
+  "author": "郭涛",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.10.0"
+  }
+}
